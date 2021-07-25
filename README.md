@@ -1,11 +1,28 @@
 # Boxicon
 
-**TODO: Add description**
+Boxicon is [surface](https://github.com/surface-ui/surface) icon component library that wraps around the amazing [boxicons](https://boxicons.com) icon library.
+
+## Usage
+
+```elixir
+defmodule MyComponent do
+  use Surface.Component
+
+  alias Boxicon.SolidVideoPlus
+
+  @impl true
+  def render(assigns) do
+    ~F"""
+      <SolidVideoPlus  size="64" class="icon green"/>
+    """
+  end
+
+end
+```
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `boxicon` to your list of dependencies in `mix.exs`:
+Add boxicons to your dependencies in your `mix.exs` file
 
 ```elixir
 def deps do
@@ -14,8 +31,3 @@ def deps do
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/boxicon](https://hexdocs.pm/boxicon).
-
