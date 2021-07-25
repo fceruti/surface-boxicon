@@ -1,9 +1,6 @@
 defmodule Boxicon.RegularSort do
   use Surface.Component
 
-  @doc "Name as described in https://boxicons.com/"
-  prop name, :string, required: true
-
   @doc "Width & height of the icon"
   prop size, :integer, default: 24
 
@@ -13,7 +10,7 @@ defmodule Boxicon.RegularSort do
   @impl true
   def render(assigns) do
     ~F"""
-      <svg xmlns="http://www.w3.org/2000/svg" width={"#{@size}"} height={"#{@size}"} viewBox="0 0 24 24"><path d="M8 16H4l6 6V2H8zm6-11v17h2V8h4l-6-6z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width={"#{@size}"} height={"#{@size}"} class={"#{@class}"} viewBox="0 0 24 24"><path d="M8 16H4l6 6V2H8zm6-11v17h2V8h4l-6-6z"/></svg>
     """
   end
 

@@ -1,9 +1,6 @@
 defmodule Boxicon.SolidLogOut do
   use Surface.Component
 
-  @doc "Name as described in https://boxicons.com/"
-  prop name, :string, required: true
-
   @doc "Width & height of the icon"
   prop size, :integer, default: 24
 
@@ -13,7 +10,7 @@ defmodule Boxicon.SolidLogOut do
   @impl true
   def render(assigns) do
     ~F"""
-      <svg xmlns="http://www.w3.org/2000/svg" width={"#{@size}"} height={"#{@size}"} viewBox="0 0 24 24"><path d="M18 2H6a1 1 0 0 0-1 1v9l5-4v3h6v2h-6v3l-5-4v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width={"#{@size}"} height={"#{@size}"} class={"#{@class}"} viewBox="0 0 24 24"><path d="M18 2H6a1 1 0 0 0-1 1v9l5-4v3h6v2h-6v3l-5-4v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/></svg>
     """
   end
 
