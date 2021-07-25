@@ -38,7 +38,7 @@ Add boxicons to your dependencies in your `mix.exs` file
 ```elixir
 def deps do
   [
-    {:boxicon, "~> 0.1.0"}
+    {:surface_boxicon, "~> 0.3.0"}
   ]
 end
 ```
