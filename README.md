@@ -1,6 +1,6 @@
 # Boxicon
 
-Boxicon is [surface](https://github.com/surface-ui/surface) icon component library that wraps around the amazing [boxicons](https://boxicons.com) icon library.
+Boxicon is [surface](https://github.com/surface-ui/surface) component library that wraps around the amazing [boxicons](https://boxicons.com) library.
 
 ## Usage
 
@@ -16,9 +16,20 @@ defmodule MyComponent do
       <SolidVideoPlus  size="64" class="icon green"/>
     """
   end
-
 end
 ```
+
+## Naming convention
+
+If you already know the name of the icon you want, infering the module's name should be no problem. 
+
+Here are a few examples:
+
+Name | Category | Module Name
+---| --- | ---
+docker | logos | LogosDocker
+copy-alt | regular | RegularCopyAlt
+quote-single | Solid | SolidQuoteSingle
 
 ## Installation
 
@@ -31,3 +42,11 @@ def deps do
   ]
 end
 ```
+
+Then run 
+
+```
+mix deps.get
+```
+
+and that's pretty much it.
