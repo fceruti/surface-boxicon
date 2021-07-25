@@ -1,6 +1,6 @@
 # Boxicon
 
-Boxicon is [surface](https://github.com/surface-ui/surface) component library that wraps around the amazing [boxicons](https://boxicons.com) library.
+Boxicon is [surface](https://github.com/surface-ui/surface) component library that wraps the amazing [boxicons](https://boxicons.com) library.
 
 ## Usage
 

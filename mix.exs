@@ -7,6 +7,8 @@ defmodule Boxicon.MixProject do
       version: "0.1.0",
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
+      description: description(),
+      package: package(),
       deps: deps(),
 
       # Docs
@@ -17,6 +19,24 @@ defmodule Boxicon.MixProject do
         main: "Boxicon",
         extras: ["README.md"]
       ]
+    ]
+  end
+
+  defp description do
+    """
+    Boxicon is surface component library that wraps the amazing boxicons library.
+    """
+  end
+
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README.md"],
+      maintainers: ["Francisco Ceruti"],
+      licenses: ["Apache 2.0"],
+      links: %{
+        "GitHub" => "https://github.com/fceruti/surface-boxicons",
+        "Docs" => "https://hexdocs.pm/surface-boxicons/"
+      }
     ]
   end
 

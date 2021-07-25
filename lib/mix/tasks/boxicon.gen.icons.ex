@@ -1,8 +1,8 @@
 defmodule Mix.Tasks.Boxicon.Gen.Icons do
   @shortdoc "Generates surface template files."
   @moduledoc """
-    Generates Surface template files (.sface) from raw svg files in
-    `priv/downloads` directory and stores them in `lib/templates` directory.
+    Generates Surface components from raw svg files in
+    `priv/downloads` directory and stores them in `lib/icons` directory.
   """
   use Mix.Task
 

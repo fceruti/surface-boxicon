@@ -1,18 +1,5 @@
 defmodule Boxicon do
   @moduledoc """
-  Documentation for `Boxicon`.
+    Boxicon is surface component library that wraps the amazing boxicons library.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Boxicon.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
