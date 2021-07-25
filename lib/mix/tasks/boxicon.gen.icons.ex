@@ -41,15 +41,12 @@ defmodule Mix.Tasks.Boxicon.Gen.Icons do
           )
           |> String.replace(
             ~s(height="24"),
-            ~S(height={"#{@size}"})
+            ~S(height={"#{@size}"} class={"#{@class}"})
           )
 
         component = """
         defmodule Boxicon.#{module} do
           use Surface.Component
-
-          @doc "Name as described in https://boxicons.com/"
-          prop name, :string, required: true
 
           @doc "Width & height of the icon"
           prop size, :integer, default: 24
