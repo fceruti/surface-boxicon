@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.LockOpenAlt do
+defmodule Boxicon.SolidLockOpenAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

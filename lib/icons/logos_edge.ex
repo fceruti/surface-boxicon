@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Edge do
+defmodule Boxicon.LogosEdge do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

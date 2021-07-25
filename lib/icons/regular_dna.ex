@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Dna do
+defmodule Boxicon.RegularDna do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

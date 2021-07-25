@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Bullseye do
+defmodule Boxicon.RegularBullseye do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

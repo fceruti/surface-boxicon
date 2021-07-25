@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ShapePolygon do
+defmodule Boxicon.RegularShapePolygon do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

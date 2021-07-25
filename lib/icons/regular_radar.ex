@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Radar do
+defmodule Boxicon.RegularRadar do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

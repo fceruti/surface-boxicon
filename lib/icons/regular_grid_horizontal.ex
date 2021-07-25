@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.GridHorizontal do
+defmodule Boxicon.RegularGridHorizontal do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Closet do
+defmodule Boxicon.RegularCloset do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.VirusBlock do
+defmodule Boxicon.SolidVirusBlock do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

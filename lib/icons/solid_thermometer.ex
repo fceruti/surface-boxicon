@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Thermometer do
+defmodule Boxicon.SolidThermometer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

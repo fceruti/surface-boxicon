@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BarcodeReader do
+defmodule Boxicon.RegularBarcodeReader do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

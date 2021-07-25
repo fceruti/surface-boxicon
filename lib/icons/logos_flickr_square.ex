@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.FlickrSquare do
+defmodule Boxicon.LogosFlickrSquare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.TimeFive do
+defmodule Boxicon.SolidTimeFive do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Vial do
+defmodule Boxicon.RegularVial do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

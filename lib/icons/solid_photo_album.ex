@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.PhotoAlbum do
+defmodule Boxicon.SolidPhotoAlbum do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Dryer do
+defmodule Boxicon.SolidDryer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

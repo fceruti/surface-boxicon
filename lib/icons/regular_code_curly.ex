@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CodeCurly do
+defmodule Boxicon.RegularCodeCurly do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.AlarmExclamation do
+defmodule Boxicon.RegularAlarmExclamation do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

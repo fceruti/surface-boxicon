@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BandAid do
+defmodule Boxicon.RegularBandAid do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

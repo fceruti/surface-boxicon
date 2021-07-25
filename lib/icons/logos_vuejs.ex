@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Vuejs do
+defmodule Boxicon.LogosVuejs do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

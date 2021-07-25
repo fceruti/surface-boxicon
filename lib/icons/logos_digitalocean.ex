@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Digitalocean do
+defmodule Boxicon.LogosDigitalocean do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

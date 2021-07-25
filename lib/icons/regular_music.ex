@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Music do
+defmodule Boxicon.RegularMusic do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

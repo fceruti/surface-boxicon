@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Sync do
+defmodule Boxicon.RegularSync do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

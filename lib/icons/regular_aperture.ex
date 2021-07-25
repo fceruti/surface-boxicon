@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Aperture do
+defmodule Boxicon.RegularAperture do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

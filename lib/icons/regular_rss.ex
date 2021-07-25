@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Rss do
+defmodule Boxicon.RegularRss do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

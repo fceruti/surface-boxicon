@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.FontFamily do
+defmodule Boxicon.RegularFontFamily do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

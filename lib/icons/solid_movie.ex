@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Movie do
+defmodule Boxicon.SolidMovie do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

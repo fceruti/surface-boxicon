@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.PlayCircle do
+defmodule Boxicon.RegularPlayCircle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

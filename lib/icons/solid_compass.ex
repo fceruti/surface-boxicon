@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Compass do
+defmodule Boxicon.SolidCompass do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

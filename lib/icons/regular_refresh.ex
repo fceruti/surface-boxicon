@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Refresh do
+defmodule Boxicon.RegularRefresh do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

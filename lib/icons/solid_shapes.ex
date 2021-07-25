@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Shapes do
+defmodule Boxicon.SolidShapes do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

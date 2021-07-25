@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CaretRight do
+defmodule Boxicon.RegularCaretRight do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Mailchimp do
+defmodule Boxicon.LogosMailchimp do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

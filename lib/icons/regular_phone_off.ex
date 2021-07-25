@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.PhoneOff do
+defmodule Boxicon.RegularPhoneOff do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

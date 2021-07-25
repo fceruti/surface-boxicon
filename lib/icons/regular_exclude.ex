@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Exclude do
+defmodule Boxicon.RegularExclude do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

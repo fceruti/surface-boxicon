@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BellPlus do
+defmodule Boxicon.SolidBellPlus do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.WindowClose do
+defmodule Boxicon.RegularWindowClose do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

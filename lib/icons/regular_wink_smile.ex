@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.WinkSmile do
+defmodule Boxicon.RegularWinkSmile do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

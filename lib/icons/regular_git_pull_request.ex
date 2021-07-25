@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.GitPullRequest do
+defmodule Boxicon.RegularGitPullRequest do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Bracket do
+defmodule Boxicon.RegularBracket do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.EnvelopeOpen do
+defmodule Boxicon.SolidEnvelopeOpen do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

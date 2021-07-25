@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Slideshow do
+defmodule Boxicon.RegularSlideshow do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

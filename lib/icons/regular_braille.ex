@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Braille do
+defmodule Boxicon.RegularBraille do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Share do
+defmodule Boxicon.RegularShare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

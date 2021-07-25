@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.GooglePlus do
+defmodule Boxicon.LogosGooglePlus do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

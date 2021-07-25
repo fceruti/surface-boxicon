@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MessageAltCheck do
+defmodule Boxicon.RegularMessageAltCheck do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

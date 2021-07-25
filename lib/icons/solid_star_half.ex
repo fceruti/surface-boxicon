@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.StarHalf do
+defmodule Boxicon.SolidStarHalf do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MessageMinus do
+defmodule Boxicon.SolidMessageMinus do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

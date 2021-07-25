@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ZoomOut do
+defmodule Boxicon.RegularZoomOut do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

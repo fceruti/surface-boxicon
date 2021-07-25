@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.StreetView do
+defmodule Boxicon.RegularStreetView do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

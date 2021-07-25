@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CategoryAlt do
+defmodule Boxicon.RegularCategoryAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

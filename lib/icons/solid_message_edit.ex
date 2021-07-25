@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MessageEdit do
+defmodule Boxicon.SolidMessageEdit do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

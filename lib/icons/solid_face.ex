@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Face do
+defmodule Boxicon.SolidFace do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

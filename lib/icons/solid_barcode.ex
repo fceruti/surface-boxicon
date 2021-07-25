@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Barcode do
+defmodule Boxicon.SolidBarcode do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

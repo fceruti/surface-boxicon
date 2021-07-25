@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.ErrorCircle do
+defmodule Boxicon.SolidErrorCircle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

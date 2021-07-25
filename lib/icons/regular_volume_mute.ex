@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.VolumeMute do
+defmodule Boxicon.RegularVolumeMute do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Spreadsheet do
+defmodule Boxicon.RegularSpreadsheet do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

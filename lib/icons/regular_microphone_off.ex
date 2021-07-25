@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MicrophoneOff do
+defmodule Boxicon.RegularMicrophoneOff do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

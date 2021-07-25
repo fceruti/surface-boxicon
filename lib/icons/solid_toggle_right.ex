@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.ToggleRight do
+defmodule Boxicon.SolidToggleRight do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

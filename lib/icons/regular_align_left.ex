@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.AlignLeft do
+defmodule Boxicon.RegularAlignLeft do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

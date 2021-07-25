@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Tone do
+defmodule Boxicon.RegularTone do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

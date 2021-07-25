@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Less do
+defmodule Boxicon.LogosLess do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

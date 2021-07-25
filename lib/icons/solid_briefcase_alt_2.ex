@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BriefcaseAlt2 do
+defmodule Boxicon.SolidBriefcaseAlt2 do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

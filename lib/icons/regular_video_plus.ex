@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.VideoPlus do
+defmodule Boxicon.RegularVideoPlus do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

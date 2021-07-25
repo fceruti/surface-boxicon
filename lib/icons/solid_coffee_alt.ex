@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.CoffeeAlt do
+defmodule Boxicon.SolidCoffeeAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

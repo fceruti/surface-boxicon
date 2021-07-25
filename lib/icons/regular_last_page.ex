@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.LastPage do
+defmodule Boxicon.RegularLastPage do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

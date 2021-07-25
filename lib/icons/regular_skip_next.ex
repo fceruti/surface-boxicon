@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.SkipNext do
+defmodule Boxicon.RegularSkipNext do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

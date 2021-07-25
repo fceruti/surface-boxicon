@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Drink do
+defmodule Boxicon.SolidDrink do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

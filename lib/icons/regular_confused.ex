@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Confused do
+defmodule Boxicon.RegularConfused do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

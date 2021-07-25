@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Play do
+defmodule Boxicon.RegularPlay do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

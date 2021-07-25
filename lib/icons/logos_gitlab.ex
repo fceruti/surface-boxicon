@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Gitlab do
+defmodule Boxicon.LogosGitlab do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

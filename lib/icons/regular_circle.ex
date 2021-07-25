@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Circle do
+defmodule Boxicon.RegularCircle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

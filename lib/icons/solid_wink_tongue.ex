@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.WinkTongue do
+defmodule Boxicon.SolidWinkTongue do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

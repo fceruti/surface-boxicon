@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BatteryCharging do
+defmodule Boxicon.SolidBatteryCharging do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

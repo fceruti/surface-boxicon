@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.TailwindCss do
+defmodule Boxicon.LogosTailwindCss do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

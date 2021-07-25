@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Rocket do
+defmodule Boxicon.SolidRocket do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MessageRoundedDots do
+defmodule Boxicon.SolidMessageRoundedDots do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

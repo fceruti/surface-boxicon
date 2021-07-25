@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.SelectMultiple do
+defmodule Boxicon.SolidSelectMultiple do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

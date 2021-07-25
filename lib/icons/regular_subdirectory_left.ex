@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.SubdirectoryLeft do
+defmodule Boxicon.RegularSubdirectoryLeft do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

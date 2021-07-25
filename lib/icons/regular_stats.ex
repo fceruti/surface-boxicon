@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Stats do
+defmodule Boxicon.RegularStats do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

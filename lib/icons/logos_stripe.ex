@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Stripe do
+defmodule Boxicon.LogosStripe do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

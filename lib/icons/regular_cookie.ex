@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Cookie do
+defmodule Boxicon.RegularCookie do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

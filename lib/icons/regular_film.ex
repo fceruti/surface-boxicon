@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Film do
+defmodule Boxicon.RegularFilm do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

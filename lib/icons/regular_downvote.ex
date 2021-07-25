@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Downvote do
+defmodule Boxicon.RegularDownvote do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

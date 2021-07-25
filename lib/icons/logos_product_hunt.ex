@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.ProductHunt do
+defmodule Boxicon.LogosProductHunt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Repeat do
+defmodule Boxicon.RegularRepeat do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

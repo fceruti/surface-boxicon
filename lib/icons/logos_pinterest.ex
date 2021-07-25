@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Pinterest do
+defmodule Boxicon.LogosPinterest do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

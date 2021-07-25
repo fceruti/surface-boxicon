@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Collapse do
+defmodule Boxicon.RegularCollapse do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

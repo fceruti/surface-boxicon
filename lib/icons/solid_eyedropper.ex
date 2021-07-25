@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Eyedropper do
+defmodule Boxicon.SolidEyedropper do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

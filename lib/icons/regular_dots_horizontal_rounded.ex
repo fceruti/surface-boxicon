@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.DotsHorizontalRounded do
+defmodule Boxicon.RegularDotsHorizontalRounded do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

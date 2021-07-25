@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.VolumeFull do
+defmodule Boxicon.SolidVolumeFull do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

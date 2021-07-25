@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Parking do
+defmodule Boxicon.SolidParking do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

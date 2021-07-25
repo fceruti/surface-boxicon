@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Envelope do
+defmodule Boxicon.RegularEnvelope do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Git do
+defmodule Boxicon.LogosGit do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

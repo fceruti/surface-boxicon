@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ArrowToLeft do
+defmodule Boxicon.RegularArrowToLeft do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

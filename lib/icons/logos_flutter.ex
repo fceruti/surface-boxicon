@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Flutter do
+defmodule Boxicon.LogosFlutter do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

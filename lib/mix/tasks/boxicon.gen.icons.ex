@@ -27,14 +27,11 @@ defmodule Mix.Tasks.Boxicon.Gen.Icons do
           |> List.pop_at(0)
           |> elem(1)
 
-        parent_module = String.capitalize(type)
-        module = name_parts |> Enum.map(&String.capitalize/1) |> Enum.join("")
-
         module =
-          case Regex.match?(~r/^\d/, module) do
-            true -> "B#{module}"
-            false -> module
-          end
+          name_parts
+          |> List.insert_at(0, type)
+          |> Enum.map(&String.capitalize/1)
+          |> Enum.join("")
 
         render_content =
           file_content
@@ -48,7 +45,7 @@ defmodule Mix.Tasks.Boxicon.Gen.Icons do
           )
 
         component = """
-        defmodule Boxicon.#{parent_module}.#{module} do
+        defmodule Boxicon.#{module} do
           use Surface.Component
 
           @doc "Name as described in https://boxicons.com/"

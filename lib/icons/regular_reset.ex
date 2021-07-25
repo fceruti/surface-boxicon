@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Reset do
+defmodule Boxicon.RegularReset do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

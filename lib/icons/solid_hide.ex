@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Hide do
+defmodule Boxicon.SolidHide do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Bookmark do
+defmodule Boxicon.SolidBookmark do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

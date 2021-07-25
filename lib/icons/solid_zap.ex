@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Zap do
+defmodule Boxicon.SolidZap do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.LowVision do
+defmodule Boxicon.RegularLowVision do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

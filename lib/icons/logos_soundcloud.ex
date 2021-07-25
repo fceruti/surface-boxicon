@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Soundcloud do
+defmodule Boxicon.LogosSoundcloud do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

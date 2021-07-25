@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Sleepy do
+defmodule Boxicon.RegularSleepy do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

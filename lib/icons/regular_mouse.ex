@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Mouse do
+defmodule Boxicon.RegularMouse do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Android do
+defmodule Boxicon.LogosAndroid do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

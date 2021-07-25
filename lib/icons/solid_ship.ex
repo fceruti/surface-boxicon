@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Ship do
+defmodule Boxicon.SolidShip do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

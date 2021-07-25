@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Firebase do
+defmodule Boxicon.LogosFirebase do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

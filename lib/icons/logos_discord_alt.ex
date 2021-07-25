@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.DiscordAlt do
+defmodule Boxicon.LogosDiscordAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ExitFullscreen do
+defmodule Boxicon.RegularExitFullscreen do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

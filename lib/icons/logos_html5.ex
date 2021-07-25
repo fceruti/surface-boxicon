@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Html5 do
+defmodule Boxicon.LogosHtml5 do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

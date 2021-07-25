@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.TagX do
+defmodule Boxicon.SolidTagX do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

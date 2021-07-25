@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Opera do
+defmodule Boxicon.LogosOpera do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

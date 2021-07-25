@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.ErrorAlt do
+defmodule Boxicon.SolidErrorAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

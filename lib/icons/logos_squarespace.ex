@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Squarespace do
+defmodule Boxicon.LogosSquarespace do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

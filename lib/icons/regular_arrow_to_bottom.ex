@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ArrowToBottom do
+defmodule Boxicon.RegularArrowToBottom do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

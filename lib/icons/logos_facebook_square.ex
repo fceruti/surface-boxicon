@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.FacebookSquare do
+defmodule Boxicon.LogosFacebookSquare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

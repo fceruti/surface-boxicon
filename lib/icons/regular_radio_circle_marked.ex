@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.RadioCircleMarked do
+defmodule Boxicon.RegularRadioCircleMarked do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

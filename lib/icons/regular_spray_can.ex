@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.SprayCan do
+defmodule Boxicon.RegularSprayCan do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

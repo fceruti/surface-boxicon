@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Pause do
+defmodule Boxicon.RegularPause do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Expand do
+defmodule Boxicon.RegularExpand do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

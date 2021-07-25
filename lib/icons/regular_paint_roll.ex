@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.PaintRoll do
+defmodule Boxicon.RegularPaintRoll do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

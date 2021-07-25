@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Drupal do
+defmodule Boxicon.LogosDrupal do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

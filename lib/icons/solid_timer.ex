@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Timer do
+defmodule Boxicon.SolidTimer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

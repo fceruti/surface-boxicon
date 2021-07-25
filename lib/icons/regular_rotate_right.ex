@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.RotateRight do
+defmodule Boxicon.RegularRotateRight do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

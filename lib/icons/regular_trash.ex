@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Trash do
+defmodule Boxicon.RegularTrash do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

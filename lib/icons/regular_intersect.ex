@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Intersect do
+defmodule Boxicon.RegularIntersect do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

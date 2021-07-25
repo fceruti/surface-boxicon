@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Exit do
+defmodule Boxicon.RegularExit do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

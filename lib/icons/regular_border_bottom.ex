@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BorderBottom do
+defmodule Boxicon.RegularBorderBottom do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

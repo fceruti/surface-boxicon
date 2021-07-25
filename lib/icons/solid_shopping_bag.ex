@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.ShoppingBag do
+defmodule Boxicon.SolidShoppingBag do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

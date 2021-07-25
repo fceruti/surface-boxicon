@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.SliderAlt do
+defmodule Boxicon.RegularSliderAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

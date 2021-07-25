@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.QrScan do
+defmodule Boxicon.RegularQrScan do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

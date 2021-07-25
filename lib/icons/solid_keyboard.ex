@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Keyboard do
+defmodule Boxicon.SolidKeyboard do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

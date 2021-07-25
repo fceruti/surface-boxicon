@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Deviantart do
+defmodule Boxicon.LogosDeviantart do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

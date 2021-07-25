@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CommentDots do
+defmodule Boxicon.RegularCommentDots do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

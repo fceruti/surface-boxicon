@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Adjust do
+defmodule Boxicon.SolidAdjust do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

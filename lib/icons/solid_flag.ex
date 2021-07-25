@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Flag do
+defmodule Boxicon.SolidFlag do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

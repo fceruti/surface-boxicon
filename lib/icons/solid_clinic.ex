@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Clinic do
+defmodule Boxicon.SolidClinic do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

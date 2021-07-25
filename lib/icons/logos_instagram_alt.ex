@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.InstagramAlt do
+defmodule Boxicon.LogosInstagramAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

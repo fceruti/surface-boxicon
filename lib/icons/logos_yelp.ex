@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Yelp do
+defmodule Boxicon.LogosYelp do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

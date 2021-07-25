@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.DirectionLeft do
+defmodule Boxicon.SolidDirectionLeft do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

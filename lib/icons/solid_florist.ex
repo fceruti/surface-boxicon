@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Florist do
+defmodule Boxicon.SolidFlorist do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

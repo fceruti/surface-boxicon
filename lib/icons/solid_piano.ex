@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Piano do
+defmodule Boxicon.SolidPiano do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

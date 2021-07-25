@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ArrowBack do
+defmodule Boxicon.RegularArrowBack do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

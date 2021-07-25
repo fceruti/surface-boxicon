@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.ShareAlt do
+defmodule Boxicon.SolidShareAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Terminal do
+defmodule Boxicon.RegularTerminal do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Link do
+defmodule Boxicon.RegularLink do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

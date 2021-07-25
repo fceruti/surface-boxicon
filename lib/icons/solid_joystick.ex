@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Joystick do
+defmodule Boxicon.SolidJoystick do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

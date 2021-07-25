@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.ZoomIn do
+defmodule Boxicon.SolidZoomIn do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

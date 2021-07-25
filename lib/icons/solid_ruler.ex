@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Ruler do
+defmodule Boxicon.SolidRuler do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

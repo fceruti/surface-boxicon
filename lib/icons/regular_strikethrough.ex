@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Strikethrough do
+defmodule Boxicon.RegularStrikethrough do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.LineChartDown do
+defmodule Boxicon.RegularLineChartDown do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

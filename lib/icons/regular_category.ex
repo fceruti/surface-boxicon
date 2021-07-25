@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Category do
+defmodule Boxicon.RegularCategory do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

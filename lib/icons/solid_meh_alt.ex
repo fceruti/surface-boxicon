@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MehAlt do
+defmodule Boxicon.SolidMehAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Crosshair do
+defmodule Boxicon.RegularCrosshair do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FlagCheckered do
+defmodule Boxicon.SolidFlagCheckered do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

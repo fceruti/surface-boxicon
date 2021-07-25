@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MenuAltRight do
+defmodule Boxicon.RegularMenuAltRight do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

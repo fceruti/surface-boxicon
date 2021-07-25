@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Search do
+defmodule Boxicon.RegularSearch do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

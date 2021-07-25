@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BabyCarriage do
+defmodule Boxicon.SolidBabyCarriage do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

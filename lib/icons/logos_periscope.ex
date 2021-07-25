@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Periscope do
+defmodule Boxicon.LogosPeriscope do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

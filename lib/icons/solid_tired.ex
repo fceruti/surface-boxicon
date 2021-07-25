@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Tired do
+defmodule Boxicon.SolidTired do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Headphone do
+defmodule Boxicon.RegularHeadphone do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

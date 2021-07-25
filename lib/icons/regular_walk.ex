@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Walk do
+defmodule Boxicon.RegularWalk do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

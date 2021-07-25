@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Trim do
+defmodule Boxicon.RegularTrim do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

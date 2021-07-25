@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Shuffle do
+defmodule Boxicon.RegularShuffle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

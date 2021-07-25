@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.VolumeLow do
+defmodule Boxicon.SolidVolumeLow do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

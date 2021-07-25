@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.HeartSquare do
+defmodule Boxicon.RegularHeartSquare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

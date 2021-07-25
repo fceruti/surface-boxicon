@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Timer do
+defmodule Boxicon.RegularTimer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

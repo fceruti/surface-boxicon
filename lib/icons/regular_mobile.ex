@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Mobile do
+defmodule Boxicon.RegularMobile do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

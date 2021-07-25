@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Quora do
+defmodule Boxicon.LogosQuora do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

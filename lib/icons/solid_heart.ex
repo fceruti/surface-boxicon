@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Heart do
+defmodule Boxicon.SolidHeart do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Bootstrap do
+defmodule Boxicon.LogosBootstrap do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

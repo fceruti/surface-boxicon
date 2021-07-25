@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Copyright do
+defmodule Boxicon.SolidCopyright do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

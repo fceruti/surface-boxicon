@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.GridAlt do
+defmodule Boxicon.SolidGridAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

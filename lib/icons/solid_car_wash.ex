@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.CarWash do
+defmodule Boxicon.SolidCarWash do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

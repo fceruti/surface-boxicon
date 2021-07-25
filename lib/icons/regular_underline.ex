@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Underline do
+defmodule Boxicon.RegularUnderline do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

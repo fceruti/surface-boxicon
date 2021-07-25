@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CurrentLocation do
+defmodule Boxicon.RegularCurrentLocation do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.News do
+defmodule Boxicon.SolidNews do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BookReader do
+defmodule Boxicon.SolidBookReader do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

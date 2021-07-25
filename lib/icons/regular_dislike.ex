@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Dislike do
+defmodule Boxicon.RegularDislike do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

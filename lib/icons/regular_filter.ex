@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Filter do
+defmodule Boxicon.RegularFilter do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

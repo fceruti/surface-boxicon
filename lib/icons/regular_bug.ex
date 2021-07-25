@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Bug do
+defmodule Boxicon.RegularBug do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

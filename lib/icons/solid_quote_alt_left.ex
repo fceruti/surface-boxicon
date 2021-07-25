@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.QuoteAltLeft do
+defmodule Boxicon.SolidQuoteAltLeft do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

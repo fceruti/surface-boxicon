@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Torch do
+defmodule Boxicon.SolidTorch do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

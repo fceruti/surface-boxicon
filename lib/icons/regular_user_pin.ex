@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.UserPin do
+defmodule Boxicon.RegularUserPin do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

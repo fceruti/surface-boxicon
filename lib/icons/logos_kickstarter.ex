@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Kickstarter do
+defmodule Boxicon.LogosKickstarter do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

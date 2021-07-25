@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Layout do
+defmodule Boxicon.SolidLayout do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

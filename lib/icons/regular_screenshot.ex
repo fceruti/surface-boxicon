@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Screenshot do
+defmodule Boxicon.RegularScreenshot do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

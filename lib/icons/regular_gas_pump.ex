@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.GasPump do
+defmodule Boxicon.RegularGasPump do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

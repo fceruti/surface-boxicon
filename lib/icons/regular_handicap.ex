@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Handicap do
+defmodule Boxicon.RegularHandicap do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

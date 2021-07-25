@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Flame do
+defmodule Boxicon.SolidFlame do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.SearchAlt2 do
+defmodule Boxicon.RegularSearchAlt2 do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

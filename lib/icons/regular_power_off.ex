@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.PowerOff do
+defmodule Boxicon.RegularPowerOff do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

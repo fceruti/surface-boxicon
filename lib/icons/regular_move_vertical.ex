@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MoveVertical do
+defmodule Boxicon.RegularMoveVertical do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

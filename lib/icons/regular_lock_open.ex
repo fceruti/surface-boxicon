@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.LockOpen do
+defmodule Boxicon.RegularLockOpen do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

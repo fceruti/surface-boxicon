@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FlagAlt do
+defmodule Boxicon.SolidFlagAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

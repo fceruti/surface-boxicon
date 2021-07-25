@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Equalizer do
+defmodule Boxicon.RegularEqualizer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

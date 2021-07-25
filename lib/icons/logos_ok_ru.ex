@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.OkRu do
+defmodule Boxicon.LogosOkRu do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Videos do
+defmodule Boxicon.SolidVideos do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

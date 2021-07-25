@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.UserRectangle do
+defmodule Boxicon.SolidUserRectangle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

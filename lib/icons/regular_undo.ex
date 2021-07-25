@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Undo do
+defmodule Boxicon.RegularUndo do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

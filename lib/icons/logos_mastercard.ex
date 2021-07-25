@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Mastercard do
+defmodule Boxicon.LogosMastercard do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

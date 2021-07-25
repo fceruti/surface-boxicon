@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MessageSquareX do
+defmodule Boxicon.RegularMessageSquareX do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

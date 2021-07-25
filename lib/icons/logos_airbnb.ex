@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Airbnb do
+defmodule Boxicon.LogosAirbnb do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

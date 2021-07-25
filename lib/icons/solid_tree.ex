@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Tree do
+defmodule Boxicon.SolidTree do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.FirstPage do
+defmodule Boxicon.RegularFirstPage do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

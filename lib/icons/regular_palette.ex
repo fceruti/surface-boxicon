@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Palette do
+defmodule Boxicon.RegularPalette do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

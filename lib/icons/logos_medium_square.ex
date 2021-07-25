@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.MediumSquare do
+defmodule Boxicon.LogosMediumSquare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

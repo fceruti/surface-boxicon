@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Etsy do
+defmodule Boxicon.LogosEtsy do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

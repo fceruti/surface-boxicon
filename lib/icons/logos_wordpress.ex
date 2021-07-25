@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Wordpress do
+defmodule Boxicon.LogosWordpress do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

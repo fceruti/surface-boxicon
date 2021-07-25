@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MobileVibration do
+defmodule Boxicon.RegularMobileVibration do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

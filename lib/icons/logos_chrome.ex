@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Chrome do
+defmodule Boxicon.LogosChrome do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

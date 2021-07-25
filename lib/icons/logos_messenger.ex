@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Messenger do
+defmodule Boxicon.LogosMessenger do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

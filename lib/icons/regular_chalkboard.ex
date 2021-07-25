@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Chalkboard do
+defmodule Boxicon.RegularChalkboard do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

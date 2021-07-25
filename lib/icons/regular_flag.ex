@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Flag do
+defmodule Boxicon.RegularFlag do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

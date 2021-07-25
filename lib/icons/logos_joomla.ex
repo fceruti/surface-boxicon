@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Joomla do
+defmodule Boxicon.LogosJoomla do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

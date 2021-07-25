@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.YinYang do
+defmodule Boxicon.SolidYinYang do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

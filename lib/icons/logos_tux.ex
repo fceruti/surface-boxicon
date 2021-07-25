@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Tux do
+defmodule Boxicon.LogosTux do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

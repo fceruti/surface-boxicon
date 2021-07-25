@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MinusFront do
+defmodule Boxicon.RegularMinusFront do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

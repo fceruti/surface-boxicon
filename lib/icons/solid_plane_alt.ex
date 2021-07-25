@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.PlaneAlt do
+defmodule Boxicon.SolidPlaneAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

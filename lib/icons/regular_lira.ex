@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Lira do
+defmodule Boxicon.RegularLira do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

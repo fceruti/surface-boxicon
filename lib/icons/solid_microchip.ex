@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Microchip do
+defmodule Boxicon.SolidMicrochip do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

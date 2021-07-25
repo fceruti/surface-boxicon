@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.GitBranch do
+defmodule Boxicon.RegularGitBranch do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

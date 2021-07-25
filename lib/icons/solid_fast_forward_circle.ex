@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FastForwardCircle do
+defmodule Boxicon.SolidFastForwardCircle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

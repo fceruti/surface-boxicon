@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BookAlt do
+defmodule Boxicon.SolidBookAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

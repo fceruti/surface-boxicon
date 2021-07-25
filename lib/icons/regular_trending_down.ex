@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.TrendingDown do
+defmodule Boxicon.RegularTrendingDown do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

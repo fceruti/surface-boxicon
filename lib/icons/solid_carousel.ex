@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Carousel do
+defmodule Boxicon.SolidCarousel do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

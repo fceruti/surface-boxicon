@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Pound do
+defmodule Boxicon.RegularPound do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

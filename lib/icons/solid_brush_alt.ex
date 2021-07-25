@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BrushAlt do
+defmodule Boxicon.SolidBrushAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

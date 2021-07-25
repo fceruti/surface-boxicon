@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Sass do
+defmodule Boxicon.LogosSass do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

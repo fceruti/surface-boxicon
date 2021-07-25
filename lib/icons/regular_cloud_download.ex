@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CloudDownload do
+defmodule Boxicon.RegularCloudDownload do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

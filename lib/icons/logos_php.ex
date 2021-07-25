@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Php do
+defmodule Boxicon.LogosPhp do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

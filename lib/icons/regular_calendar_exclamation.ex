@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CalendarExclamation do
+defmodule Boxicon.RegularCalendarExclamation do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.History do
+defmodule Boxicon.RegularHistory do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

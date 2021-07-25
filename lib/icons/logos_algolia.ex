@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Algolia do
+defmodule Boxicon.LogosAlgolia do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

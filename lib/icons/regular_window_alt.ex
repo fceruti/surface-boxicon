@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.WindowAlt do
+defmodule Boxicon.RegularWindowAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

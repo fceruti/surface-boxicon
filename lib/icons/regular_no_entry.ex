@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.NoEntry do
+defmodule Boxicon.RegularNoEntry do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

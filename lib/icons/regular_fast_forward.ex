@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.FastForward do
+defmodule Boxicon.RegularFastForward do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

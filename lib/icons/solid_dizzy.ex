@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Dizzy do
+defmodule Boxicon.SolidDizzy do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

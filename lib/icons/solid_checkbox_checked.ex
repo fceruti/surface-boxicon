@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.CheckboxChecked do
+defmodule Boxicon.SolidCheckboxChecked do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

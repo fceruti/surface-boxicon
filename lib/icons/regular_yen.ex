@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Yen do
+defmodule Boxicon.RegularYen do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

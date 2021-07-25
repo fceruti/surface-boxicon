@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Loader do
+defmodule Boxicon.RegularLoader do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

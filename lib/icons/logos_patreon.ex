@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Patreon do
+defmodule Boxicon.LogosPatreon do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

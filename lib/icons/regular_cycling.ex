@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Cycling do
+defmodule Boxicon.RegularCycling do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

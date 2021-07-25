@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.FolderOpen do
+defmodule Boxicon.RegularFolderOpen do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

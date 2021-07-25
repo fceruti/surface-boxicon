@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.TagAlt do
+defmodule Boxicon.RegularTagAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

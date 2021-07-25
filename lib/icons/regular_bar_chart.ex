@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BarChart do
+defmodule Boxicon.RegularBarChart do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Youtube do
+defmodule Boxicon.LogosYoutube do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

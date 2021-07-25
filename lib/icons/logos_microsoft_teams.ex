@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.MicrosoftTeams do
+defmodule Boxicon.LogosMicrosoftTeams do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

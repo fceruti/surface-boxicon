@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.LayerMinus do
+defmodule Boxicon.RegularLayerMinus do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

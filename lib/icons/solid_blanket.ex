@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Blanket do
+defmodule Boxicon.SolidBlanket do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

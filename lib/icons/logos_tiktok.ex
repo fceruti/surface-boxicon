@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Tiktok do
+defmodule Boxicon.LogosTiktok do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

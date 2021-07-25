@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.TShirt do
+defmodule Boxicon.SolidTShirt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

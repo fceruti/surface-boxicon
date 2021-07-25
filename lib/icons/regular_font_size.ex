@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.FontSize do
+defmodule Boxicon.RegularFontSize do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

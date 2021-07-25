@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ExpandAlt do
+defmodule Boxicon.RegularExpandAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

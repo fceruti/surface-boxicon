@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Cake do
+defmodule Boxicon.SolidCake do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

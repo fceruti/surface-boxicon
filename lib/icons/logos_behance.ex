@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Behance do
+defmodule Boxicon.LogosBehance do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

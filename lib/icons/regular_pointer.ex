@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Pointer do
+defmodule Boxicon.RegularPointer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

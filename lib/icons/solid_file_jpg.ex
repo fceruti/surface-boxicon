@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FileJpg do
+defmodule Boxicon.SolidFileJpg do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

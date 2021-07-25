@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BookmarkAltMinus do
+defmodule Boxicon.RegularBookmarkAltMinus do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

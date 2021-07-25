@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Navigation do
+defmodule Boxicon.SolidNavigation do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

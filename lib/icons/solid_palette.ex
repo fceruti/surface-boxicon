@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Palette do
+defmodule Boxicon.SolidPalette do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

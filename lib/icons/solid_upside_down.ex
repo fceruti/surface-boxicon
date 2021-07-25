@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.UpsideDown do
+defmodule Boxicon.SolidUpsideDown do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

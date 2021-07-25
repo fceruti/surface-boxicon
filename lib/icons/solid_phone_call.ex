@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.PhoneCall do
+defmodule Boxicon.SolidPhoneCall do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

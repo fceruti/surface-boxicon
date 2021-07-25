@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.PieChartAlt do
+defmodule Boxicon.RegularPieChartAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MessageSquareCheck do
+defmodule Boxicon.SolidMessageSquareCheck do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

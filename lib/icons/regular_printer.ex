@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Printer do
+defmodule Boxicon.RegularPrinter do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

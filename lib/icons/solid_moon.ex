@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Moon do
+defmodule Boxicon.SolidMoon do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

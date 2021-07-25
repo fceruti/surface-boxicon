@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MessageError do
+defmodule Boxicon.SolidMessageError do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

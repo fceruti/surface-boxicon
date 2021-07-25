@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Beer do
+defmodule Boxicon.SolidBeer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

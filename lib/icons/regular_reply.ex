@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Reply do
+defmodule Boxicon.RegularReply do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

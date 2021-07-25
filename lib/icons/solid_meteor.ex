@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Meteor do
+defmodule Boxicon.SolidMeteor do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Shopify do
+defmodule Boxicon.LogosShopify do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Planet do
+defmodule Boxicon.SolidPlanet do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

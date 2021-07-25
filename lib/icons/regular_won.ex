@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Won do
+defmodule Boxicon.RegularWon do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

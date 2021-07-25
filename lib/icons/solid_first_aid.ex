@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FirstAid do
+defmodule Boxicon.SolidFirstAid do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

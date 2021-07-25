@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Duplicate do
+defmodule Boxicon.SolidDuplicate do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

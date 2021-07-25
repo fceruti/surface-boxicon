@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Brain do
+defmodule Boxicon.RegularBrain do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

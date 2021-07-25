@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Wrench do
+defmodule Boxicon.RegularWrench do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

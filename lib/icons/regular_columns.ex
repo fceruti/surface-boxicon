@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Columns do
+defmodule Boxicon.RegularColumns do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

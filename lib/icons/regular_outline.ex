@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Outline do
+defmodule Boxicon.RegularOutline do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

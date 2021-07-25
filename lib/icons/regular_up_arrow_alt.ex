@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.UpArrowAlt do
+defmodule Boxicon.RegularUpArrowAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

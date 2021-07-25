@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Basketball do
+defmodule Boxicon.RegularBasketball do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

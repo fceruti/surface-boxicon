@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Game do
+defmodule Boxicon.SolidGame do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

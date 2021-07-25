@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BarChartAlt2 do
+defmodule Boxicon.RegularBarChartAlt2 do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

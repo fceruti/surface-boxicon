@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Hdd do
+defmodule Boxicon.RegularHdd do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

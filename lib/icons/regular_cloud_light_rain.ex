@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CloudLightRain do
+defmodule Boxicon.RegularCloudLightRain do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

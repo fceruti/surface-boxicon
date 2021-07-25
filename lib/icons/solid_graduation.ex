@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Graduation do
+defmodule Boxicon.SolidGraduation do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

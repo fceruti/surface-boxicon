@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Blender do
+defmodule Boxicon.LogosBlender do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

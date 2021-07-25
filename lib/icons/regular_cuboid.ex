@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Cuboid do
+defmodule Boxicon.RegularCuboid do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

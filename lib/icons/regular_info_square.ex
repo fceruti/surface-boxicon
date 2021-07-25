@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.InfoSquare do
+defmodule Boxicon.RegularInfoSquare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

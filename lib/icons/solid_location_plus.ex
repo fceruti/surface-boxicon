@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.LocationPlus do
+defmodule Boxicon.SolidLocationPlus do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

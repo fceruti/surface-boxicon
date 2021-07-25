@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MessageAltDetail do
+defmodule Boxicon.RegularMessageAltDetail do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

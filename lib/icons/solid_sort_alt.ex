@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.SortAlt do
+defmodule Boxicon.SolidSortAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

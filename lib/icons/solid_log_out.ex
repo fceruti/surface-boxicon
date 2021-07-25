@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.LogOut do
+defmodule Boxicon.SolidLogOut do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

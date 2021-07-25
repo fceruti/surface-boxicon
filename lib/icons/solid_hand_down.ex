@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.HandDown do
+defmodule Boxicon.SolidHandDown do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

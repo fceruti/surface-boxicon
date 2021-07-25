@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MaleSign do
+defmodule Boxicon.RegularMaleSign do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

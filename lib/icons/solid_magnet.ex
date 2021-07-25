@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Magnet do
+defmodule Boxicon.SolidMagnet do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

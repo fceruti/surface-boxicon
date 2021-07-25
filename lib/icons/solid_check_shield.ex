@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.CheckShield do
+defmodule Boxicon.SolidCheckShield do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

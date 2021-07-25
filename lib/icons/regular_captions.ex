@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Captions do
+defmodule Boxicon.RegularCaptions do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

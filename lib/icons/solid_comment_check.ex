@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.CommentCheck do
+defmodule Boxicon.SolidCommentCheck do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Send do
+defmodule Boxicon.SolidSend do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

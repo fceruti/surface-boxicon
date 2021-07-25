@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MemoryCard do
+defmodule Boxicon.SolidMemoryCard do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

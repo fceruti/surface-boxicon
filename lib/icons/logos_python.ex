@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Python do
+defmodule Boxicon.LogosPython do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

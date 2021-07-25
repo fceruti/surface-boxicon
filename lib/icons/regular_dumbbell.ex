@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Dumbbell do
+defmodule Boxicon.RegularDumbbell do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

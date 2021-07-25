@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Tv do
+defmodule Boxicon.SolidTv do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

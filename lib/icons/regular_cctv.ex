@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Cctv do
+defmodule Boxicon.RegularCctv do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

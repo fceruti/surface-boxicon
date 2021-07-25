@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Offer do
+defmodule Boxicon.SolidOffer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

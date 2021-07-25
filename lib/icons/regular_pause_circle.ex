@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.PauseCircle do
+defmodule Boxicon.RegularPauseCircle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.ColorFill do
+defmodule Boxicon.SolidColorFill do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

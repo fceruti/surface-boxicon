@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Certification do
+defmodule Boxicon.SolidCertification do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

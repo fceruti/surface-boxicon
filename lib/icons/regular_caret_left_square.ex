@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CaretLeftSquare do
+defmodule Boxicon.RegularCaretLeftSquare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

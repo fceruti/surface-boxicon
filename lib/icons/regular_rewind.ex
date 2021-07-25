@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Rewind do
+defmodule Boxicon.RegularRewind do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

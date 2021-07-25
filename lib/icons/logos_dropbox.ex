@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Dropbox do
+defmodule Boxicon.LogosDropbox do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

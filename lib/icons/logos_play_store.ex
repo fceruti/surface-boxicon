@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.PlayStore do
+defmodule Boxicon.LogosPlayStore do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Label do
+defmodule Boxicon.SolidLabel do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Css3 do
+defmodule Boxicon.LogosCss3 do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

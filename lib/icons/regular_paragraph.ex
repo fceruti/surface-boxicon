@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Paragraph do
+defmodule Boxicon.RegularParagraph do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Jsfiddle do
+defmodule Boxicon.LogosJsfiddle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

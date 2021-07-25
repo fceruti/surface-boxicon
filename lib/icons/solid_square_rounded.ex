@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.SquareRounded do
+defmodule Boxicon.SolidSquareRounded do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

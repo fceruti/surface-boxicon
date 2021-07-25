@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.DialpadAlt do
+defmodule Boxicon.RegularDialpadAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Sort do
+defmodule Boxicon.RegularSort do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Bot do
+defmodule Boxicon.RegularBot do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

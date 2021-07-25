@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BusSchool do
+defmodule Boxicon.RegularBusSchool do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

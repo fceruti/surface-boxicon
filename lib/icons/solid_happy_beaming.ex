@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.HappyBeaming do
+defmodule Boxicon.SolidHappyBeaming do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

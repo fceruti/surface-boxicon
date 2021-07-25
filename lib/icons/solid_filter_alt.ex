@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FilterAlt do
+defmodule Boxicon.SolidFilterAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

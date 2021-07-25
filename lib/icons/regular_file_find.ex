@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.FileFind do
+defmodule Boxicon.RegularFileFind do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

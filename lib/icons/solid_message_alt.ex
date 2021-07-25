@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MessageAlt do
+defmodule Boxicon.SolidMessageAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

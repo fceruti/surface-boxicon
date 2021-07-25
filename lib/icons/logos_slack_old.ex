@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.SlackOld do
+defmodule Boxicon.LogosSlackOld do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

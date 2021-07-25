@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.LeftArrowAlt do
+defmodule Boxicon.SolidLeftArrowAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

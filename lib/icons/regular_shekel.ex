@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Shekel do
+defmodule Boxicon.RegularShekel do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

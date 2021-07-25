@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Water do
+defmodule Boxicon.RegularWater do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

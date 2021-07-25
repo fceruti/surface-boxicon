@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CalendarX do
+defmodule Boxicon.RegularCalendarX do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

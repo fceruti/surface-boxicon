@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Cylinder do
+defmodule Boxicon.RegularCylinder do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

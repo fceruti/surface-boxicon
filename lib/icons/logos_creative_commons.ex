@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.CreativeCommons do
+defmodule Boxicon.LogosCreativeCommons do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

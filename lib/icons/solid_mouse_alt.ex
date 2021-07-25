@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MouseAlt do
+defmodule Boxicon.SolidMouseAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Rename do
+defmodule Boxicon.SolidRename do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

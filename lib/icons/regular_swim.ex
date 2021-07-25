@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Swim do
+defmodule Boxicon.RegularSwim do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

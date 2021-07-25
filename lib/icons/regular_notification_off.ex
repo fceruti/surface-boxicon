@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.NotificationOff do
+defmodule Boxicon.RegularNotificationOff do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

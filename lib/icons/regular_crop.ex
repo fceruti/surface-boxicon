@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Crop do
+defmodule Boxicon.RegularCrop do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

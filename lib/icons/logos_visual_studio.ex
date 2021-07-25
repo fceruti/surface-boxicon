@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.VisualStudio do
+defmodule Boxicon.LogosVisualStudio do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

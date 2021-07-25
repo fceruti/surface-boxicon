@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.GitMerge do
+defmodule Boxicon.RegularGitMerge do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

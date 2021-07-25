@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Sticker do
+defmodule Boxicon.RegularSticker do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

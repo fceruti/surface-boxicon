@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.SkipPreviousCircle do
+defmodule Boxicon.RegularSkipPreviousCircle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

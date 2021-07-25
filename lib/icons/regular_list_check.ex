@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ListCheck do
+defmodule Boxicon.RegularListCheck do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

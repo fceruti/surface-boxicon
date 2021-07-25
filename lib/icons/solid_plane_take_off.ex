@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.PlaneTakeOff do
+defmodule Boxicon.SolidPlaneTakeOff do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

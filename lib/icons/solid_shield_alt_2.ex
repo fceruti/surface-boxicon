@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.ShieldAlt2 do
+defmodule Boxicon.SolidShieldAlt2 do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

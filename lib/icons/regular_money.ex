@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Money do
+defmodule Boxicon.RegularMoney do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

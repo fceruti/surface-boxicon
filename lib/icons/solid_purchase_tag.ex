@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.PurchaseTag do
+defmodule Boxicon.SolidPurchaseTag do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

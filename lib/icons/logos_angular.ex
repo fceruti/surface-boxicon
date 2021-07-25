@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Angular do
+defmodule Boxicon.LogosAngular do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

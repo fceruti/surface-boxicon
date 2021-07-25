@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Stopwatch do
+defmodule Boxicon.SolidStopwatch do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

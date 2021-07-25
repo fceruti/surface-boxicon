@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Church do
+defmodule Boxicon.SolidChurch do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

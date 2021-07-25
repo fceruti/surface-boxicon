@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Wix do
+defmodule Boxicon.LogosWix do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

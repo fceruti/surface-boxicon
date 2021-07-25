@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.LayerPlus do
+defmodule Boxicon.RegularLayerPlus do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

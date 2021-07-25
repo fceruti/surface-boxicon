@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.QuestionMark do
+defmodule Boxicon.RegularQuestionMark do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

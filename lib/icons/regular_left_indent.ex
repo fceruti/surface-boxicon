@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.LeftIndent do
+defmodule Boxicon.RegularLeftIndent do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

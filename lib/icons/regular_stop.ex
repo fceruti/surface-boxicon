@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Stop do
+defmodule Boxicon.RegularStop do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

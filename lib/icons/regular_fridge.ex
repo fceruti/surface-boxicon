@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Fridge do
+defmodule Boxicon.RegularFridge do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

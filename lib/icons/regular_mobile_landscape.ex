@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.MobileLandscape do
+defmodule Boxicon.RegularMobileLandscape do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

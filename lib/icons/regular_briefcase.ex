@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Briefcase do
+defmodule Boxicon.RegularBriefcase do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

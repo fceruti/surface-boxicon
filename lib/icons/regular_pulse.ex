@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Pulse do
+defmodule Boxicon.RegularPulse do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

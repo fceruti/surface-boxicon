@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.SpringBoot do
+defmodule Boxicon.LogosSpringBoot do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

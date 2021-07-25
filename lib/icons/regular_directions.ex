@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Directions do
+defmodule Boxicon.RegularDirections do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

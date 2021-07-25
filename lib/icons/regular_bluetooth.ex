@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Bluetooth do
+defmodule Boxicon.RegularBluetooth do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

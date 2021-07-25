@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Steam do
+defmodule Boxicon.LogosSteam do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

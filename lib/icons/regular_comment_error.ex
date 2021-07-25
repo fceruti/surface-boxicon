@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CommentError do
+defmodule Boxicon.RegularCommentError do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

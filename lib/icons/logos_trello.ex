@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Trello do
+defmodule Boxicon.LogosTrello do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

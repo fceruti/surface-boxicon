@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Eraser do
+defmodule Boxicon.SolidEraser do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

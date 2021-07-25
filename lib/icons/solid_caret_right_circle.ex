@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.CaretRightCircle do
+defmodule Boxicon.SolidCaretRightCircle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

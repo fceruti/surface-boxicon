@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.MicrophoneAlt do
+defmodule Boxicon.SolidMicrophoneAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

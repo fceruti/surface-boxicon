@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Wifi1 do
+defmodule Boxicon.RegularWifi1 do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

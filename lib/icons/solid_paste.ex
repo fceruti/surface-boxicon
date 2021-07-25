@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Paste do
+defmodule Boxicon.SolidPaste do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

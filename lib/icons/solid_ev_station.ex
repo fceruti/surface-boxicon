@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.EvStation do
+defmodule Boxicon.SolidEvStation do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

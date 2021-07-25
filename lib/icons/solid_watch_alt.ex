@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.WatchAlt do
+defmodule Boxicon.SolidWatchAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

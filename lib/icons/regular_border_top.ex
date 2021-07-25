@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BorderTop do
+defmodule Boxicon.RegularBorderTop do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

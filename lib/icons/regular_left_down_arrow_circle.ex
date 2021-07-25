@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.LeftDownArrowCircle do
+defmodule Boxicon.RegularLeftDownArrowCircle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

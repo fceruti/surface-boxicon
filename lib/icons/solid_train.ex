@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Train do
+defmodule Boxicon.SolidTrain do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

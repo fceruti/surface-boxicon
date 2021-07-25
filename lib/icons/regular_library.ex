@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Library do
+defmodule Boxicon.RegularLibrary do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

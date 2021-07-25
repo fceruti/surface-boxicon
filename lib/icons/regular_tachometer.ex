@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Tachometer do
+defmodule Boxicon.RegularTachometer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

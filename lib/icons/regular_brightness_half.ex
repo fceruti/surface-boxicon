@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.BrightnessHalf do
+defmodule Boxicon.RegularBrightnessHalf do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

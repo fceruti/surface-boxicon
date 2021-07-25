@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.HourglassBottom do
+defmodule Boxicon.SolidHourglassBottom do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

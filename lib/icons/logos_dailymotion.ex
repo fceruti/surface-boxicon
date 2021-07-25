@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Dailymotion do
+defmodule Boxicon.LogosDailymotion do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

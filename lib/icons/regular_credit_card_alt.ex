@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.CreditCardAlt do
+defmodule Boxicon.RegularCreditCardAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

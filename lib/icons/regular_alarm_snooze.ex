@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.AlarmSnooze do
+defmodule Boxicon.RegularAlarmSnooze do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

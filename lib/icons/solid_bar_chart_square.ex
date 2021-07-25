@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BarChartSquare do
+defmodule Boxicon.SolidBarChartSquare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

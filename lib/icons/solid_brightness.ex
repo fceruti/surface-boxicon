@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Brightness do
+defmodule Boxicon.SolidBrightness do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Pyramid do
+defmodule Boxicon.SolidPyramid do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

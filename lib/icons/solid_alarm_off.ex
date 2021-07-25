@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.AlarmOff do
+defmodule Boxicon.SolidAlarmOff do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

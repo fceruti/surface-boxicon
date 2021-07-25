@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Jquery do
+defmodule Boxicon.LogosJquery do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

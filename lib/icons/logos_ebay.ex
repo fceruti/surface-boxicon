@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Ebay do
+defmodule Boxicon.LogosEbay do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

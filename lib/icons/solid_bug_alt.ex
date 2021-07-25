@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.BugAlt do
+defmodule Boxicon.SolidBugAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

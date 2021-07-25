@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.InternetExplorer do
+defmodule Boxicon.LogosInternetExplorer do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

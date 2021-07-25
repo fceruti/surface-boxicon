@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.TrashAlt do
+defmodule Boxicon.RegularTrashAlt do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

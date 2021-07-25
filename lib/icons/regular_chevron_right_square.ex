@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ChevronRightSquare do
+defmodule Boxicon.RegularChevronRightSquare do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

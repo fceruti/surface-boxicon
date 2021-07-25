@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Navigation do
+defmodule Boxicon.RegularNavigation do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

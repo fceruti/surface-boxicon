@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.AddToQueue do
+defmodule Boxicon.SolidAddToQueue do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

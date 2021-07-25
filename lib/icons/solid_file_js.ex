@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FileJs do
+defmodule Boxicon.SolidFileJs do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

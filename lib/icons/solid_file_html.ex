@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FileHtml do
+defmodule Boxicon.SolidFileHtml do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

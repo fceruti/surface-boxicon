@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.ShapeTriangle do
+defmodule Boxicon.RegularShapeTriangle do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

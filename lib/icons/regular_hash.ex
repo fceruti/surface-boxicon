@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Hash do
+defmodule Boxicon.RegularHash do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

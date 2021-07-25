@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Fullscreen do
+defmodule Boxicon.RegularFullscreen do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

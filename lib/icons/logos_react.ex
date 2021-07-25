@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.React do
+defmodule Boxicon.LogosReact do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

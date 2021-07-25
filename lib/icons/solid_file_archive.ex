@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.FileArchive do
+defmodule Boxicon.SolidFileArchive do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.TrafficBarrier do
+defmodule Boxicon.SolidTrafficBarrier do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

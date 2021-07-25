@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Snapchat do
+defmodule Boxicon.LogosSnapchat do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

@@ -1,4 +1,4 @@
-defmodule Boxicon.Logos.Codepen do
+defmodule Boxicon.LogosCodepen do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

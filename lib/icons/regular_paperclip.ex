@@ -1,4 +1,4 @@
-defmodule Boxicon.Regular.Paperclip do
+defmodule Boxicon.RegularPaperclip do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"

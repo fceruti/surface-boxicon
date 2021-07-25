@@ -1,4 +1,4 @@
-defmodule Boxicon.Solid.Landmark do
+defmodule Boxicon.SolidLandmark do
   use Surface.Component
 
   @doc "Name as described in https://boxicons.com/"
