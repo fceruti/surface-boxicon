@@ -27,9 +27,7 @@ defmodule Mix.Tasks.Boxicon.Gen.Module do
 
             icon_func = """
               def render(%{name: "#{name}", type: "#{type}"} = assigns) do
-                ~F"\""
-                  #{icon_content}
-                "\""
+                ~F[#{icon_content}]
               end
             """
 
