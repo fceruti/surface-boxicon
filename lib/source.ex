@@ -39,7 +39,7 @@ defmodule Boxicon.Source do
           []
 
         :all ->
-          Path.join([File.cwd!(), "priv/downloads/#{@version}/#{type}", "*.svg"])
+          Path.join([File.cwd!(), "lib/downloads/#{@version}/#{type}", "*.svg"])
           |> Path.wildcard()
           |> Enum.map(fn file_path ->
             %__MODULE__{type: type, name: get_name_from_path(file_path), file_path: file_path}
@@ -51,7 +51,7 @@ defmodule Boxicon.Source do
             file_path =
               Path.join([
                 File.cwd!(),
-                "priv/downloads/#{@version}/#{type}",
+                "lib/downloads/#{@version}/#{type}",
                 get_filename(type, icon_name)
               ])
 
