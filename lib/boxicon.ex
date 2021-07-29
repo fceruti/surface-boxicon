@@ -37,4 +37,17 @@ defmodule Boxicon do
 
   @doc "CSS classes for the wrapping svg element"
   prop class, :string, default: "icon"
+
+  @icons Boxicon.Source.get_icons()
+
+  def render(assigns) do
+    ~F[<svg xmlns="http://www.w3.org/2000/svg" width={"#{@size}"} height={"#{@size}"} class={"#{@class}"} viewBox="0 0 24 24">{render_content(@type, @name)}</svg>]
+  end
+
+  for %Boxicon.Source{type: type, name: name, content: content} <- @icons do
+    defp render_content(unquote(Atom.to_string(type)), unquote(name)),
+      do: unquote(Phoenix.HTML.raw(content))
+  end
+
+  defp render_content(_, _), do: "NOPE"
 end
