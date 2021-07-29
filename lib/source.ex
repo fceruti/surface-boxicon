@@ -9,7 +9,7 @@ defmodule Boxicon.Source do
 
   @spec get_icons() :: [%__MODULE__{}]
   def get_icons() do
-    config = Application.get_env(:boxicon, :icons, :all)
+    config = Application.get_env(:surface_boxicon, :icons, :all)
     get_icons(config)
   end
 

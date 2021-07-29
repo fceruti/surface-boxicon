@@ -23,6 +23,7 @@ defmodule Boxicon do
 
     To get a full list of all the available icons, go to https://boxicons.com/
   """
+  require Logger
 
   use Surface.Component
 
@@ -43,6 +44,8 @@ defmodule Boxicon do
   def render(assigns) do
     ~F[<svg xmlns="http://www.w3.org/2000/svg" width={"#{@size}"} height={"#{@size}"} class={"#{@class}"} viewBox="0 0 24 24">{render_content(@type, @name)}</svg>]
   end
+
+  Logger.debug(" - Compiling #{Enum.count(@icons)} boxicons.")
 
   for %Boxicon.Source{type: type, name: name, content: content} <- @icons do
     defp render_content(unquote(Atom.to_string(type)), unquote(name)),

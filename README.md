@@ -31,7 +31,7 @@ This are some possible configurations:
 
 Two regular icons, all the logos and none of the solid ones.
 ```elixir
-config :boxicon,
+config :surface_boxicon,
   icons: [
     regular: ["calendar", "chvron-down"],
     logos: :all,
@@ -41,7 +41,7 @@ config :boxicon,
 
 Just the icons you need (recommended)
 ```elixir
-config :boxicon,
+config :surface_boxicon,
   icons: [
     regular: ["calendar", "chvron-down"],
     solid: ["hand", "file-md"],
@@ -51,7 +51,7 @@ config :boxicon,
 
 Compile all the icons (default config)
 ```elixir
-config :boxicon,
+config :surface_boxicon,
   icons: :all
 ```
 
