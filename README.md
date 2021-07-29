@@ -8,28 +8,54 @@ Boxicon is [surface](https://github.com/surface-ui/surface) component library th
 defmodule MyComponent do
   use Surface.Component
 
-  alias Boxicon.SolidVideoPlus
-
   @impl true
   def render(assigns) do
     ~F"""
-      <SolidVideoPlus  size="64" class="icon green"/>
+      <Boxicon
+        type="regular"
+        name="calendar"  
+        size="64" 
+        class="icon green"
+      />
     """
   end
 end
 ```
 
-## Naming convention
+## Configuration
 
-If you already know the name of the icon you want, infering the module's name should be no problem. 
+By default Boxicon will compile all the 1500+ icons, which can take a while and will make you runtime
+unnecessarily bloated. To fix this, you can specify the icons you want or an entire category.
 
-Here are a few examples:
+This are some possible configurations:
 
-Name | Category | Module Name
----| --- | ---
-docker | logos | LogosDocker
-copy-alt | regular | RegularCopyAlt
-quote-single | Solid | SolidQuoteSingle
+Two regular icons, all the logos and none of the solid ones.
+```elixir
+config :boxicon,
+  icons: [
+    regular: ["calendar", "chvron-down"],
+    logos: :all,
+    solid: nil
+  ]
+```
+
+Just the icons you need (recommended)
+```elixir
+config :boxicon,
+  icons: [
+    regular: ["calendar", "chvron-down"],
+    solid: ["hand", "file-md"],
+    logos: ["docker"]
+  ]
+```
+
+Compile all the icons (default config)
+```elixir
+config :boxicon,
+  icons: :all
+```
+
+For the complete list of available icons visit the [boxicons wesite](https://boxicons.com).
 
 ## Installation
 
@@ -38,7 +64,7 @@ Add boxicons to your dependencies in your `mix.exs` file
 ```elixir
 def deps do
   [
-    {:surface_boxicon, "~> 0.2.0"}
+    {:surface_boxicon, "~> 0.4.0"}
   ]
 end
 ```
