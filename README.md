@@ -2,6 +2,8 @@
 
 Boxicon is [surface](https://github.com/surface-ui/surface) component library that wraps the amazing [boxicons](https://boxicons.com) library.
 
+[![Hex pm](http://img.shields.io/hexpm/v/surface_boxicon.svg?style=flat)](https://hex.pm/packages/surface_boxicon) [![build](https://github.com/fceruti/surface-boxicon/actions/workflows/build.yml/badge.svg)](https://github.com/fceruti/surface-boxicon/actions/workflows/build.yml)
+
 ## Usage
 
 ```elixir
