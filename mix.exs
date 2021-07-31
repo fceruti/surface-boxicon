@@ -51,7 +51,8 @@ defmodule Boxicon.MixProject do
   defp deps do
     [
       {:surface, "~> 0.5.1"},
-      {:ex_doc, "~> 0.24", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.24", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
     ]
   end
 end
