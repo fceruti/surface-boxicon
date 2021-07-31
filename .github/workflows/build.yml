@@ -1,0 +1,118 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  dependencies:
+    name: Install dependencies
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        elixir: ["1.12.1"]
+        otp: ["24.0.2"]
+
+    steps:
+      - name: Cancel previous runs
+        uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          access_token: ${{ github.token }}
+      - name: Checkout Github repo
+        uses: actions/checkout@v2
+      - name: Sets up an Elixir/OTP environment
+        uses: actions/setup-elixir@v1
+        with:
+          otp-version: ${{ matrix.otp }}
+          elixir-version: ${{ matrix.elixir }}
+          experimental-otp: true
+      - name: Retrieve cached dependencies
+        uses: actions/cache@v2
+        id: mix-cache
+        with:
+          path: |
+            deps
+            _build
+            priv/plts
+          key: deps-${{ runner.os }}-${{ matrix.otp }}-${{ matrix.elixir }}-${{ hashFiles('mix.lock') }}
+      - name: Install dependencies
+        if: steps.mix-cache.outputs.cache-hit != 'true'
+        run: |
+          mix local.rebar --force
+          mix local.hex --force
+          mix deps.get
+          mix deps.compile
+
+  mix-tests:
+    name: Run tests
+    needs: dependencies
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        elixir: ["1.12.1"]
+        otp: ["24.0.2"]
+
+    steps:
+      - name: Cancel previous runs
+        uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          access_token: ${{ github.token }}
+      - name: Checkout Github repo
+        uses: actions/checkout@v2
+      - name: Sets up an Elixir/OTP environment
+        uses: actions/setup-elixir@v1
+        with:
+          otp-version: ${{ matrix.otp }}
+          elixir-version: ${{ matrix.elixir }}
+          experimental-otp: true
+      - name: Retrieve cached dependencies
+        uses: actions/cache@v2
+        id: mix-cache
+        with:
+          path: |
+            deps
+            _build
+            priv/plts
+          key: deps-${{ runner.os }}-${{ matrix.otp }}-${{ matrix.elixir }}-${{ hashFiles('mix.lock') }}
+      - name: Run tests
+        run: mix test --trace --slowest 10
+
+  static-code-analysis:
+    needs: dependencies
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        elixir: ["1.12.1"]
+        otp: ["24.0.2"]
+
+    steps:
+      - name: Cancel previous runs
+        uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          access_token: ${{ github.token }}
+      - name: Checkout Github repo
+        uses: actions/checkout@v2
+      - name: Sets up an Elixir/OTP environment
+        uses: actions/setup-elixir@v1
+        with:
+          otp-version: ${{ matrix.otp }}
+          elixir-version: ${{ matrix.elixir }}
+          experimental-otp: true
+      - name: Retrieve cached dependencies
+        uses: actions/cache@v2
+        id: mix-cache
+        with:
+          path: |
+            deps
+            _build
+            priv/plts
+          key: deps-${{ runner.os }}-${{ matrix.otp }}-${{ matrix.elixir }}-${{ hashFiles('mix.lock') }}
+      - name: Runs format
+        run: mix format "{config,lib,test}/**/*.{ex,exs}" --check-formatted
+      - name: Runs dialyzer
+        run: mix dialyzer --no-check --ignore-exit-status
