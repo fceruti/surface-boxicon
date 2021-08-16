@@ -28,16 +28,18 @@ defmodule Boxicon do
   use Surface.Component
 
   @doc "Type of the icon"
-  prop type, :string, values!: ["solid", "regular", "logos"]
+  prop type, :string,
+    values!: ["solid", "regular", "logos"],
+    default: Application.get_env(:surface_boxicon, :default_type, "regular")
 
   @doc "Name of the icon"
   prop name, :string, required: true
 
   @doc "Width & height of the icon"
-  prop size, :integer, default: 24
+  prop size, :integer, default: Application.get_env(:surface_boxicon, :default_size, 24)
 
   @doc "CSS classes for the wrapping svg element"
-  prop class, :string, default: "icon"
+  prop class, :string, default: Application.get_env(:surface_boxicon, :default_class, "icon")
 
   @icons Boxicon.Source.get_icons()
 

@@ -26,6 +26,17 @@ end
 
 ## Configuration
 
+### Default values
+
+```elixir
+config :surface_boxicon,
+  default_type: "regular",
+  default_size: 24,
+  default_class: "icon"
+```
+
+### Icons
+
 By default Boxicon will compile all the 1500+ icons, which can take a while and will make you runtime
 unnecessarily bloated. To fix this, you can specify the icons you want or an entire category.
 
