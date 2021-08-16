@@ -28,6 +28,8 @@ end
 
 ### Default values
 
+Default values let you write your boxicons using less code.
+
 ```elixir
 config :surface_boxicon,
   default_type: "regular",

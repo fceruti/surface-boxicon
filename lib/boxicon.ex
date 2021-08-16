@@ -28,23 +28,21 @@ defmodule Boxicon do
   use Surface.Component
 
   @doc "Type of the icon"
-  prop type, :string,
-    values!: ["solid", "regular", "logos"],
-    default: Application.get_env(:surface_boxicon, :default_type, "regular")
+  prop type, :string, values!: ["solid", "regular", "logos"]
 
   @doc "Name of the icon"
   prop name, :string, required: true
 
   @doc "Width & height of the icon"
-  prop size, :integer, default: Application.get_env(:surface_boxicon, :default_size, 24)
+  prop size, :integer
 
   @doc "CSS classes for the wrapping svg element"
-  prop class, :string, default: Application.get_env(:surface_boxicon, :default_class, "icon")
+  prop class, :string
 
   @icons Boxicon.Source.get_icons()
 
   def render(assigns) do
-    ~F[<svg xmlns="http://www.w3.org/2000/svg" width={"#{@size}"} height={"#{@size}"} class={"#{@class}"} viewBox="0 0 24 24">{render_content(@type, @name)}</svg>]
+    ~F[<svg xmlns="http://www.w3.org/2000/svg" width={"#{get_size(@size)}"} height={"#{get_size(@size)}"} class={"#{get_size(@class)}"} viewBox="0 0 24 24">{render_content(get_type(@type), @name)}</svg>]
   end
 
   Logger.debug(" - Compiling #{Enum.count(@icons)} boxicons.")
@@ -55,4 +53,25 @@ defmodule Boxicon do
   end
 
   defp render_content(_, _), do: "NOPE"
+
+  def get_size(size) do
+    case size do
+      nil -> Application.get_env(:surface_boxicon, :default_size, 24)
+      _ -> size
+    end
+  end
+
+  def get_class(class) do
+    case class do
+      nil -> Application.get_env(:surface_boxicon, :default_class, "icon")
+      _ -> class
+    end
+  end
+
+  def get_type(type) do
+    case type do
+      nil -> Application.get_env(:surface_boxicon, :default_type, "regular")
+      _ -> type
+    end
+  end
 end
