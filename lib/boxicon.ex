@@ -42,7 +42,7 @@ defmodule Boxicon do
   @icons Boxicon.Source.get_icons()
 
   def render(assigns) do
-    ~F[<svg xmlns="http://www.w3.org/2000/svg" width={"#{get_size(@size)}"} height={"#{get_size(@size)}"} class={"#{get_size(@class)}"} viewBox="0 0 24 24">{render_content(get_type(@type), @name)}</svg>]
+    ~F[<svg xmlns="http://www.w3.org/2000/svg" width={"#{get_size(@size)}"} height={"#{get_size(@size)}"} class={"#{get_class(@class)}"} viewBox="0 0 24 24">{render_content(get_type(@type), @name)}</svg>]
   end
 
   Logger.debug(" - Compiling #{Enum.count(@icons)} boxicons.")
