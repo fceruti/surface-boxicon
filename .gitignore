@@ -1,3 +1,4 @@
+@ -1,26 +1 @@
 # The directory Mix will write compiled artifacts to.
 /_build/
 
@@ -24,3 +25,6 @@ boxicon-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Generated icon modules
+lib/boxicon/
