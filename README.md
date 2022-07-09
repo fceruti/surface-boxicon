@@ -13,11 +13,8 @@ defmodule MyComponent do
   @impl true
   def render(assigns) do
     ~F"""
-      <Boxicon
-        type="regular"
-        name="calendar"  
-        size="64" 
-        class="icon green"
+      <Boxicon.Solid.Calendar
+        class="w-8 h-8"
       />
     """
   end
