@@ -31,7 +31,6 @@ defmodule Boxicon.Generate do
   defp component_filename(current_filename) do
     current_filename
     |> String.split("-")
-    |> IO.inspect()
     |> Enum.join("_")
     |> Path.basename(".svg")
     |> Kernel.<>(".ex")
@@ -61,7 +60,19 @@ defmodule Boxicon.Generate do
     end
   end
 
+  defp build_component(module_name, docs, svg, :regular) do
+    build_component_code(module_name, docs, svg, "currentColor", nil)
+  end
+
+  defp build_component(module_name, docs, svg, :solid) do
+    build_component_code(module_name, docs, svg, "currentColor", nil)
+  end
+
   defp build_component(module_name, docs, svg, _) do
+    build_component_code(module_name, docs, svg, "currentColor", nil)
+  end
+
+  defp build_component_code(module_name, docs, svg, fill, stroke) do
     # hint: the import makes sure icons are generated before icon modules are compiled
     """
     defmodule #{module_name} do
@@ -72,13 +83,13 @@ defmodule Boxicon.Generate do
       @doc "css class"
       prop class, :css_class, default: "w-5 h-5"
 
-      @doc "svg fill (default currentColor)"
-      prop fill, :string, default: "currentColor"
+      @doc "svg fill (default: #{fill})"
+      prop fill, :string, default: "#{fill}"
 
-      @doc "svg stroke (default currentColor)"
-      prop stroke, :string, default: "currentColor"
+      @doc "svg stroke (default: #{stroke})"
+      prop stroke, :string, default: "#{stroke}"
 
-      @doc "Width & height of the icon (default 100%)"
+      @doc "Width & height of the icon (default: 100%)"
       prop size, :string, default: "100%"
 
       def render(assigns) do
