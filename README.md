@@ -13,11 +13,8 @@ defmodule MyComponent do
   @impl true
   def render(assigns) do
     ~F"""
-      <Boxicon
-        type="regular"
-        name="calendar"  
-        size="64" 
-        class="icon green"
+      <Boxicon.Solid.Calendar
+        class="w-8 h-8"
       />
     """
   end
@@ -71,6 +68,9 @@ config :surface_boxicon,
 ```
 
 For the complete list of available icons visit the [boxicons wesite](https://boxicons.com).
+
+## Re-generate icon modules from SVG files
+Put SVGs in `priv/2.0.9` (or adjust the version as necessary in `Boxicon.Source`) and then run `Boxicon.Generate.generate()` 
 
 ## Installation
 

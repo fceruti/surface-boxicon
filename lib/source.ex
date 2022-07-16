@@ -4,13 +4,14 @@ defmodule Boxicon.Source do
   """
 
   @version "2.0.9"
+  @downloads "priv/"
+  @config Application.get_env(:surface_boxicon, :icons, :all)
 
   defstruct [:type, :name, :content, :file_path]
 
   @spec get_icons() :: [%__MODULE__{}]
   def get_icons() do
-    config = Application.get_env(:surface_boxicon, :icons, :all)
-    get_icons(config)
+    get_icons(@config)
   end
 
   def get_icons(:all) do
@@ -39,7 +40,7 @@ defmodule Boxicon.Source do
           []
 
         :all ->
-          Path.join([File.cwd!(), "lib/downloads/#{@version}/#{type}", "*.svg"])
+          Path.join([File.cwd!(), "#{@downloads}#{@version}/#{type}", "*.svg"])
           |> Path.wildcard()
           |> Enum.map(fn file_path ->
             %__MODULE__{type: type, name: get_name_from_path(file_path), file_path: file_path}
@@ -51,7 +52,7 @@ defmodule Boxicon.Source do
             file_path =
               Path.join([
                 File.cwd!(),
-                "lib/downloads/#{@version}/#{type}",
+                "#{@downloads}#{@version}/#{type}",
                 get_filename(type, icon_name)
               ])
 
