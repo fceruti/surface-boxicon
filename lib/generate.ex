@@ -1,11 +1,13 @@
 defmodule Boxicon.Generate do
   @moduledoc "Convert source SVG files into Surface components. Runs automatically upon compilation."
 
-  def generate(config) do
+  @config Application.get_env(:surface_boxicon, :icons, :all)
+
+  def generate() do
     dest_path = "./lib/boxicon/"
     namespace = "Boxicon."
 
-    Boxicon.Source.get_icons(config)
+    Boxicon.Source.get_icons(@config)
     |> Enum.each(&create_component(&1.type, dest_path, namespace, &1.name, &1.content))
   end
 

@@ -20,4 +20,4 @@ defmodule Boxicon do
   """
 end
 
-Boxicon.Generate.generate(Application.compile_env(:surface_boxicon, :icons, :all))
+# Boxicon.Generate.generate()

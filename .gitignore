@@ -27,4 +27,4 @@ boxicon-*.tar
 /tmp/
 
 # Generated icon modules
-lib/boxicon/
+priv/*/*

@@ -69,6 +69,9 @@ config :surface_boxicon,
 
 For the complete list of available icons visit the [boxicons wesite](https://boxicons.com).
 
+## Re-generate icon modules from SVG files
+Put SVGs in `priv/2.0.9` (or adjust the version as necessary in `Boxicon.Source`) and then run `Boxicon.Generate.generate()` 
+
 ## Installation
 
 Add boxicons to your dependencies in your `mix.exs` file
